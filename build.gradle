@@ -5,7 +5,7 @@ buildscript {
         kotlinVersion = '1.8.10'
         coroutinesVersion = "1.6.4"
         archLifecycleVersion = "1.1.1"
-        gradleVersion = '8.0.0'
+        gradleVersion = '8.5.1'
         supportlibVersion = '1.6.1'
         materialLibVersion = '1.9.0-beta01' // todo: permanent visible slider label is available from 1.6 (currently in beta) → https://github.com/material-components/material-components-android/releases
         retrofitVersion = "2.9.0"

@@ -5,7 +5,7 @@ apply plugin: "kotlin-parcelize"
 apply plugin: "com.google.android.gms.oss-licenses-plugin"
 
 android {
-    compileSdkVersion 33
+    compileSdk 33
     defaultConfig {
         applicationId "io.github.mattpvaughn.chronicle"
         minSdkVersion 31

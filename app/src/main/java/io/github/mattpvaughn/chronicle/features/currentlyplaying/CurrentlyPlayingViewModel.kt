@@ -598,12 +598,10 @@ class CurrentlyPlayingViewModel(
                         BEGIN to duration
                     }
                     R.string.sleep_timer_duration_end_of_chapter -> {
-                        val duration = (
-                            ((chapterDuration.value ?: 0L) - (
-                                chapterProgress.value
-                                    ?: 0L
-                                )) / prefsRepo.playbackSpeed
-                            ).toLong()
+                        val duration =
+                            (
+                                ((chapterDuration.value ?: 0L) - (chapterProgress.value ?: 0L)) / prefsRepo.playbackSpeed
+                                ).toLong()
                         BEGIN to duration
                     }
                     R.string.sleep_timer_append -> {
