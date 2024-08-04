@@ -11,7 +11,7 @@ android {
         minSdkVersion 31
         targetSdkVersion 33
         versionCode 26
-        versionName '0.54.0'
+        versionName '0.54.1'
         testInstrumentationRunner "io.github.mattpvaughn.chronicle.application.ChronicleTestRunner"
     }
     buildTypes {
